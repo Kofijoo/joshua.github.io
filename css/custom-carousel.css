@@ -1,0 +1,26 @@
+.carousel-indicators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.carousel-indicators button {
+  margin: 0 3px 5px;
+}
+
+#certificateCarousel .carousel-item img {
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+#certificateCarousel .carousel-control-prev,
+#certificateCarousel .carousel-control-next {
+  background-color: rgba(0,0,0,0.3);
+  width: 10%;
+  border-radius: 5px;
+}
+
+#certificateCarousel {
+  margin-bottom: 50px;
+}
