@@ -1,0 +1,14 @@
+/* Responsive utility classes for Bootstrap */
+@media (min-width: 768px) {
+  .w-md-75 {
+    width: 75% !important;
+  }
+}
+
+/* Fix for mobile image rendering */
+img {
+  -webkit-backface-visibility: hidden;
+  -ms-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
