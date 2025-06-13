@@ -1,0 +1,13 @@
+/* Mobile text formatting fixes */
+@media (max-width: 767px) {
+  p {
+    text-align: left !important;
+    word-break: normal;
+    hyphens: none;
+    line-height: 1.6;
+  }
+  
+  .about-info-wrap p {
+    margin-bottom: 15px;
+  }
+}
