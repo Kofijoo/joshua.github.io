@@ -9,15 +9,30 @@
   margin: 0 3px 5px;
 }
 
-#certificateCarousel .carousel-item img {
-  max-height: 80vh;
-  object-fit: contain;
+.certificate-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   width: 100%;
+  padding: 0 10px;
+}
+
+.certificate-wrapper img {
+  max-height: 80vh;
+  max-width: 95%;
   height: auto;
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
-  backface-visibility: hidden;
-  transform: translateZ(0);
+  object-fit: contain;
+  transform: none !important;
+  -webkit-transform: none !important;
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
+@media (min-width: 768px) {
+  .certificate-wrapper img {
+    max-width: 75%;
+  }
 }
 
 #certificateCarousel .carousel-control-prev,
