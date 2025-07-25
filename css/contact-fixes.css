@@ -1,0 +1,21 @@
+/* Contact info box adjustments */
+.save-the-date-thumb {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.save-the-date-body {
+  padding-left: 10px;
+}
+
+@media (max-width: 991px) {
+  .save-the-date-wrap {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+  
+  .save-the-date-thumb {
+    margin-left: 0;
+    padding-left: 15px;
+  }
+}
