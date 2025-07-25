@@ -1,0 +1,34 @@
+/* Reduced section spacing for better visual flow */
+.section-padding {
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
+
+/* Reduce margin between section elements */
+.section-title-wrap {
+  margin-bottom: 3rem !important;
+}
+
+/* Tighter spacing for section content */
+.mb-5 {
+  margin-bottom: 2rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 991px) {
+  .section-padding {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-padding {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+}
